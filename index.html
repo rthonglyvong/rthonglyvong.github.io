@@ -16,7 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
-
+    <link href="css/rthonglyvong.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -61,7 +61,10 @@
                     <!-- <li>-->
                     <!--    <a class="page-scroll" href="#model">Pictures</a>-->
                     <!--</li>-->
-                    <li>
+                    <li class="not-hidden">
+                        <a class="page-scroll" onclick="dj()">DJ and Modeling</a>
+                    </li>
+                    <li class="hidden-default">
                         <a class="page-scroll" href="#soundcloud">Soundcloud</a>
                     </li>
                     <li>
@@ -120,7 +123,7 @@
          </div>
     </section>
 
-    <section id="soundcloud" class="container content-section text-center">
+    <section id="soundcloud" class="container content-section text-center hidden-default">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Soundcloud</h2>
@@ -179,7 +182,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/dj.js"></script>
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
