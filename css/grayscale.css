@@ -136,7 +136,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: #31708f;
     }
 }
 
@@ -266,7 +266,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    background-color: #31708f;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -314,7 +314,7 @@ a:focus {
 .btn-default:focus {
     border: 1px solid #31708f;
     outline: 0;
-    color: #000;
+    color: #fff;
     background-color: #31708f;
 }
 
