@@ -1,6 +1,6 @@
 function dj() {
-	$(".not-hidden").hide(1000,'swing',function (){
-		$(".hidden-default").show(1000,'swing');
+	$(".not-hidden").hide(333,'swing',function (){
+		$(".hidden-default").show(333,'swing');
 	});
 }
 
